@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('website-background-image.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <div class="nav-menu">
+     <a class="active" href="index.html">Home |</a>
+     <a href="about-us.html">About Us |</a>
+     <a href="contact-us.html">Contact Us |</a>
+     <a href="products/single-products.html">Products</a>
+   </div>
+  <center>
+    <div class="header">
+      <a id="Top">
+        <h4>My Personal Website</h4>
+      </a>
+      <h1>Jacob Allen</h1>
+      <img src="JA initials branding.jpg" height="100" width="150">
+      <p>This site is about my journey to becoming a software developer, and what I've learned so far.</p>
+      <form id="form1" role="search">
+        <input type="search" id="query" name="q" placeholder="Search..." aria-label="index.html">
+        <button>Search</button>
+      </form>
+      <div class="topnav">
+        <a href="#Introduction">Introduction |</a>
+        <a href="#AboutMe">About Me |</a>
+        <a href="#BlogPost">Blog Post |</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </div>
+  </center>
+  <br>
+  <div class="new">
+  <img src="Chelsea and I.JPG" width="400%" height="200%" align="right">
+  </div>
+  <br>
+  <a id="Introduction">
+    <h3>Introduction</h3>
+  </a>
+  <p> The purpose and mission of this site is to share with you a bit about myself. I am an aspiring software developer eager to learn and demonstrate my new found skills. I decided to include this information within the introduction so as to keep the introduction short and precise, and to set expectations for the rest of the webpage. </p>
+  <br>
+  <p>Within this website there are a few sections. The "About Me" section includes interests, hobbies, and a little about my fiancée and I.</p>
+  <p>The "Blog Post" gives detail to how I started down the path to becoming a software developer, some of what I've learned so far and my favorite thing we've learned to do.</p>
+  <br>
+  <a id="AboutMe">
+    <h3>About Me</h3>
+  </a>
+  <p> I am a 25 year old man eager to begin a career, marry my fiancée, and have kids. I created this website to share about myself. I really enjoy learning about psychology, and theology in my spare time. I spend all my time outside of work with my fiancée, and we both love every second of it. I'm incredibly blessed to have her in my life. Before deciding to become a software developer I was studying to become a biomedical engineer. We met in an anatomy class as she is studying to become a nurse, and quickly got to know each other. Faith, values, desires, etc. all aligned suspiciously perfectly and we rapidly formed an unbreakable bond. I enjoy painting and drawing, playing guitar, skateboarding, ice skating, playing just about any sport and staying active, and weight lifting. </p>
+  <p> I don't have anywhere I can link anything about myself to, so instead I'll link to a couple things I like.
+  <ul>
+    <a href="https://www.youtube.com/watch?v=byva0hOj8CU&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2">Critical Role</a>: a group of voice actors who play DND <br>
+    <a href="https://www.youtube.com/@SpaceX">SpaceX YouTube channel</a>: SpaceX YouTube channel where I like to watch live missions
+  </ul>
+  </p>
+  <br>
+  <a id="BlogPost">
+    <h3>Blog Post</h3>
+  </a>
+  <p> My journey to becoming a web developer started with my fiancée. I worked at Food Lion as a cashier, then a customer lead, and then was promoted to Front End Office Assistant which meant I was responsible for counting the safe, loaning and picking up cash, running the customer service desk, sending people to luch on time, basically I was in charge of the front end of the store each evening and had to make good judgement calls in a fast paced busy location. I was nearing completion of my associates degree pursuing a career in biomedical engineering, work was close to home and the schedule was flexible until I worked in the office. I eventually left to work for Amazon because I had heard how much better it was from my friends at work who had quit to work there. I was especially interested once they told me Amazon pays for your school. I initially planned on using that for my degree, but decided to try a quicker route looking into what was offered. When I saw software development on the list I knew it was what I wanted. I want to get started in a career that pays well so I can provide for my wife and kids, and I want it to be something that I can do from anywhere so I can spend more quality time with family, as well as being a career that doesn't put so much stress on my body. </p>
+  <p> So far I've learned a lot about software development. I have no previous experience, so at times I've felt a little overwhelmed but I also appreciate the fast pace. I want a career ASAP so I can marry my fiancée. She is my greatest motivation and this is worth every sleepless night, all the studying, and every frustration I run into with my code. I've learned that HTML can work without CSS but CSS cannot work without HTML, what tags are and how to use them, how to format my webpage, and so much more. What I've found most interesting though has been CSS. I really enjoy making things look appealing and easy to read and navigate. </p>
+  <br>
+  <footer style="text-align: right;">
+    <!-- consider styling a border around the "Join Me on Discord" Link using the discord colors. #5865f2 and #7289da #8ea1e1-->
+    <span id="discord">
+      <button class="button"><a href="https://discord.com/">Join Me on Discord</a></button>
+    </span>
+    <br><br>
+    <div class="bottomnav">
+      <a href="#Introduction">Introduction |</a>
+      <a href="#AboutMe">About Me |</a>
+      <a href="#BlogPost">Blog Post |</a>
+      <a href="#Contact">Contact |</a>
+      <a href="#Top">Top of Page</a>
+    </div>
+    <a id="Contact">
+      <h3>Contact</h3>
+    </a>
+    <span>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="Email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <label for="phonenumber">Phone number:</label><br>
+      <input type="text" id="phonenumber" name="phonenumber">
+      <br>
+      <button type="save" value="Save">Save</button>
+    </form>
+    </span>
+  </footer>
+</body>
+
+</html>
